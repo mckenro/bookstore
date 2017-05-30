@@ -37,7 +37,7 @@ function book_review_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Review Body',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'display_summary' => 1,
       'text_processing' => 1,
@@ -79,7 +79,7 @@ function book_review_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_book_author',
     'label' => 'Book Author',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -119,7 +119,7 @@ function book_review_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_rating',
     'label' => 'Rating',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
